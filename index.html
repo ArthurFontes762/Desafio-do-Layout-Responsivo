@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfis Distintos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background: url(background.jpeg);
+            background-color: #333;
+            color: cornsilk;
+            text-shadow: 2px 2px black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilo do contêiner flexível */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Distribui os perfis ao redor do espaço disponível */
+            padding: 20px;
+        }
+
+        /* Estilo do perfil individual */
+        .profile {
+            flex: 1; /* Ocupa uma parte flexível do contêiner */
+            background-color: #fff;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo da imagem do perfil */
+        .profile img {
+            width: 70%;
+            border-radius: 50%;
+            margin-bottom: 1px;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed; /* Fixa o rodapé na parte inferior da tela */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Perfis Distintos</h1>
+        
+    </header>
+
+    <!-- Contêiner de perfis -->
+    <div class="container">
+        <!-- Perfil 1 -->
+        <div class="profile">
+            <img src="avatar.jpg" alt="João do Caminhão">
+            <h2>João do Caminhão</h2>
+            <p>52 anos, amante de caminhões, facinho de confundir.</p>
+        </div>
+
+        <!-- Perfil 2 -->
+        <div class="profile">
+            <img src="avatar2.jpg" alt="Arthur_762">
+            <h2>Arthur_762</h2>
+            <p>Streamer da Twitch, Speedrunner.</p>
+        </div>
+
+        <!-- Adicione mais perfis conforme necessário -->
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2023 Arthur de Moura Fontes. © Todos os diretos reservados.
+    </footer>
+
+</body>
+</html>
